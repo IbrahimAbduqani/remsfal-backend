@@ -54,6 +54,8 @@ public class AuthenticationResource implements AuthenticationEndpoint {
     @Inject
     Logger logger;
 
+
+
     @Timed(name = "checksTimerLogin",unit = MetricUnits.MILLISECONDS)
     @Counted(name = "countedLogin")
     @Override
